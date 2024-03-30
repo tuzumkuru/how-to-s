@@ -144,7 +144,7 @@ In this step, we'll perform various tests to ensure that our system configuratio
         uname -r
         ```
         
-    - **Expected Result:** The output should display the custom kernel version.
+    - **Expected Result:** The output should display the custom kernel version with + at the end. 
 2. **Test if `lsusb` Shows the USB Device:**
     - Plug in your USB webcam device.
     - Run the following command to list USB devices:
