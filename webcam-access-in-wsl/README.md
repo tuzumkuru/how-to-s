@@ -4,7 +4,7 @@
 
 Webcam access in Windows Subsystem for Linux (WSL) requires additional setup steps due to the lack of drivers in the default WSL kernel. In this guide, we'll walk through the process of setting up webcam access in Windows Subsystem for Linux (WSL) by building a new kernel with necessary drivers. 
 
-# **Procedure Overview**
+# **Overview**
 
 To enable webcam access in Windows Subsystem for Linux (WSL), we will follow these steps:
 
@@ -16,7 +16,7 @@ To enable webcam access in Windows Subsystem for Linux (WSL), we will follow the
 6. **Configure USB Passthrough:** Configure USB passthrough to enable access to USB devices within the WSL environment.
 7. **Test System Configuration:** Verify the functionality of the new kernel, USB detection, presence of video devices, and webcam view accessibility within the WSL environment.
 
-# **Detailed Guide**
+# **Steps**
 
 Before we begin, it's important to note that steps 1 to 4 and 7 will be executed within the Windows Subsystem for Linux (WSL), while steps 5 and 6 will be performed on the Windows side.
 
@@ -134,7 +134,7 @@ For configuring USB passthrough in Windows Subsystem for Linux (WSL), you can fo
 
 In this step, we'll perform various tests to ensure that our system configuration is functioning as expected after setting up webcam access in Windows Subsystem for Linux (WSL).
 
-### **Testing Procedure:**
+### **Testing:**
 
 1. **Test if the New Kernel is Working:**
     - Open your WSL terminal.
