@@ -72,7 +72,9 @@ sudo mv config .config
 sudo make menuconfig
 ```
 
-In the **`menuconfig`** interface, navigate to the following options:
+In the **`menuconfig`** interface, navigate to and choose (\*) the following options:
+
+Note: space bar changes the selection between None|M|\* and \* is what we need
 
 - Device Drivers -> Multimedia support -> Filter media drivers
 - Device Drivers -> Multimedia support -> Media device types -> Cameras and video grabbers
