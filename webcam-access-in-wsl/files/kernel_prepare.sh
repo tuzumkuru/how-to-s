@@ -3,7 +3,7 @@
 # Step 1: Install Required Packages for Building Kernel
 sudo apt update
 sudo apt upgrade -y
-sudo apt install -y build-essential flex bison libgtk2.0-dev libelf-dev libncurses-dev autoconf libudev-dev libtool zip unzip v4l-utils libssl-dev python3-pip cmake git iputils-ping net-tools dwarves
+sudo apt install -y build-essential flex bison libgtk2.0-dev libelf-dev libncurses-dev autoconf libudev-dev libtool zip unzip v4l-utils libssl-dev python3-pip cmake git iputils-ping net-tools dwarves bc
 
 # Step 2: Download and Configure Custom Kernel
 VERSION=$(uname -r | cut -d '-' -f1)
