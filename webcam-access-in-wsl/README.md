@@ -127,7 +127,7 @@ To use your USB devices connected to your Windows PC in your WSL environment you
 
 Configuring USB passthrough allows seamless access to USB devices from within the WSL environment.
 
-For configuring USB passthrough in Windows Subsystem for Linux (WSL), you can follow the instructions provided in the [Microsoft documentation on USB passthrough](https://learn.microsoft.com/en-us/windows/wsl/connect-usb) for a comprehensive guide.
+For configuring USB passthrough in Windows Subsystem for Linux (WSL), you can follow the instructions provided in [connect-usb-devices-to-wsl](../connect-usb-devices-to-wsl) folder or use the [Microsoft documentation on USB passthrough](https://learn.microsoft.com/en-us/windows/wsl/connect-usb) for a comprehensive guide.
 
 
 ## **Step 7: Test System Configuration**
