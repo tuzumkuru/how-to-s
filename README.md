@@ -12,6 +12,8 @@ Each guide is organized into separate directories. To find the guide you need, s
 
 Step-by-step instructions for configuring webcam access within the Windows Subsystem for Linux (WSL) environment.
 
+### 2. [Connect USB Devices to Windows Subsystem for Linux (WSL)](connect-usb-devices-to-wsl)
+
 <!-- Add more guides here -->
 
 ## Contributing
